@@ -11,6 +11,8 @@ declare module 'vue' {
     Color: typeof import('./src/components/Color/Color.vue')['default']
     ColorCard: typeof import('./src/components/Color/ColorCard.vue')['default']
     Fa6RegularCopy: typeof import('~icons/fa6-regular/copy')['default']
+    Font: typeof import('./src/components/Typography/Font.vue')['default']
+    FontCard: typeof import('./src/components/Typography/FontCard.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
