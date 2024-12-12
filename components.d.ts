@@ -10,6 +10,7 @@ declare module 'vue' {
     Button: typeof import('./src/components/Button/Button.vue')['default']
     Color: typeof import('./src/components/Color/Color.vue')['default']
     ColorCard: typeof import('./src/components/Color/ColorCard.vue')['default']
+    Fa6RegularCopy: typeof import('~icons/fa6-regular/copy')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

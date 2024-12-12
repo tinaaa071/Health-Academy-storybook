@@ -14,9 +14,7 @@
         title="Copy color"
       >
         <!-- Copy Icon -->
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2M16 16h2a2 2 0 012 2v2a2 2 0 01-2 2h-8a2 2 0 01-2-2v-2a2 2 0 012-2h2" />
-        </svg>
+        <Fa6RegularCopy class="text-xs text-gray-400 hover:text-gray-500" />
         <!-- Tooltip -->
         <span
           v-if="showTooltip"
@@ -48,17 +46,17 @@ defineProps({
 
 // State for tooltip and its message
 const showTooltip = ref(false);
-const tooltipText = ref("Copy color");
+const tooltipText = ref("Copy");
 
 // Method to copy text to clipboard
 function copyToClipboard(text) {
   navigator.clipboard
     .writeText(text)
     .then(() => {
-      tooltipText.value = "已複製";
+      tooltipText.value = "Copied!";
     })
     .catch(() => {
-      tooltipText.value = "複製失敗";
+      tooltipText.value = "Error";
     });
 }
 
