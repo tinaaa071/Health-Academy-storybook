@@ -10,6 +10,8 @@ declare module 'vue' {
     Button: typeof import('./src/components/Button/Button.vue')['default']
     Color: typeof import('./src/components/Color/Color.vue')['default']
     ColorCard: typeof import('./src/components/Color/ColorCard.vue')['default']
+    Corner: typeof import('./src/components/Corner/Corner.vue')['default']
+    CornerCard: typeof import('./src/components/Corner/CornerCard.vue')['default']
     Fa6RegularCopy: typeof import('~icons/fa6-regular/copy')['default']
     FontSize: typeof import('./src/components/Typography/FontSize.vue')['default']
     FontSizeCard: typeof import('./src/components/Typography/FontSizeCard.vue')['default']
@@ -17,6 +19,8 @@ declare module 'vue' {
     FontWeightCard: typeof import('./src/components/Typography/FontWeightCard.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Shadow: typeof import('./src/components/Shadow/Shadow.vue')['default']
+    ShadowCard: typeof import('./src/components/Shadow/ShadowCard.vue')['default']
     Spacing: typeof import('./src/components/Spacing/Spacing.vue')['default']
     SpacingCard: typeof import('./src/components/Spacing/SpacingCard.vue')['default']
   }

@@ -1,13 +1,13 @@
 <template>
     <div class="overflow-hidden rounded-lg border shadow-sm transition-transform duration-300 transform hover:scale-[1.02]">
         <!-- Top -->
-        <div class="w-full bg-gray-200/70" :class="spaceClass">
+        <div class="p-4 w-full bg-gray-200/70">
             <!-- Square -->
-            <div class="bg-sky-200 aspect-[1/1] ml-4" :class="spaceClass"></div>
+            <div class="w-12 h-12 bg-sky-200 aspect-[1/1]" :class="cornerClass"></div>
         </div>
         <!-- Bottom -->
         <div class="p-4 bg-gray-50">
-            <h2 :class="headingClass" class="mb-2">{{ headingText }}</h2>
+            <h2 class="mb-2 font-bold">{{ headingText }}</h2>
             <div class="flex gap-24 text-sm font-light text-gray-400">
                 <p>Class Name: 
                 <br>
@@ -47,7 +47,7 @@
   import { ref } from "vue";
   
   defineProps({
-    spaceClass: String,
+    cornerClass: String,
     headingText: String,
     headingClass: String,
     className: String,
