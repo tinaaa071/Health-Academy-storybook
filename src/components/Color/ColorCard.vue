@@ -63,6 +63,6 @@ function copyToClipboard(text) {
 // Reset tooltip when mouse leaves
 function resetTooltip() {
   showTooltip.value = false;
-  tooltipText.value = "Copy color";
+  tooltipText.value = "Copy";
 }
 </script>

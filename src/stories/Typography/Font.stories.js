@@ -1,16 +1,13 @@
 import Font from '../../components/Typography/Font.vue';
 
 export default {
-  title: "Guides/Typography",
+  title: 'Guides/Typography',
   component: Font,
 };
 
-export const FontList = () => ({
+const Template = () => ({
   components: { Font },
-  setup() {
-    return {};
-  },
-  template: `
-    <Font />
-  `,
+  template: '<Font />',
 });
+
+export const FontSize = Template.bind({});

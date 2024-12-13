@@ -1,62 +1,64 @@
 
 > vite@0.0.0 build-storybook
-> storybook build --output-dir=/var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db
+> storybook build --output-dir=/var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ
 
 [1m@storybook/core v8.4.7
 [22m
-info => Cleaning outputDir: [36m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db[39m
+info => Cleaning outputDir: [36m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ[39m
 info => Loading presets
 info => Building manager..
-info => Manager built ([38;2;181;126;229m350 ms[39m)
+info => Manager built ([38;2;181;126;229m223 ms[39m)
 info => Building preview..
 [36mvite v5.0.12 [32mbuilding for production...[36m[39m
 transforming...
-[32m✓[39m 129 modules transformed.
+[32m✓[39m 132 modules transformed.
 rendering chunks...
 computing gzip size...
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[32mcontext-tKiKnkuP.png                   [39m[1m[2m    6.12 kB[22m[1m[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[32mstyling-ZOs40c1G.png                   [39m[1m[2m    7.24 kB[22m[1m[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[32miframe.html                                   [39m[1m[2m   16.32 kB[22m[1m[22m[2m │ gzip:   4.44 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[32mdocs-Pvr7BWzI.png                      [39m[1m[2m   27.88 kB[22m[1m[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[32mshare-xgPlHEHy.png                     [39m[1m[2m   40.77 kB[22m[1m[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[32maccessibility-Fv4dmnDm.png             [39m[1m[2m   42.34 kB[22m[1m[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[32mfigma-plugin-h9oRC4jr.png              [39m[1m[2m   44.25 kB[22m[1m[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[32mtheming--liSzaFj.png                   [39m[1m[2m   44.37 kB[22m[1m[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[32mtesting-HG80fZfa.png                   [39m[1m[2m   49.31 kB[22m[1m[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[32maddon-library-VlAgJsjc.png             [39m[1m[2m  467.37 kB[22m[1m[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[35mHeader-LVn4mZpJ.css                    [39m[1m[2m    0.51 kB[22m[1m[22m[2m │ gzip:   0.30 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[35mPage-zQSTaXM3.css                      [39m[1m[2m    0.93 kB[22m[1m[22m[2m │ gzip:   0.40 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[35mpreview-sETWtoSz.css                   [39m[1m[2m   13.47 kB[22m[1m[22m[2m │ gzip:   3.35 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36m_plugin-vue_export-helper-x3n3nnut.js  [39m[1m[2m    0.09 kB[22m[1m[22m[2m │ gzip:   0.10 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mpreview-VDMnb8dh.js                    [39m[1m[2m    0.16 kB[22m[1m[22m[2m │ gzip:   0.16 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mpreview-HhbMi8Im.js                    [39m[1m[2m    0.17 kB[22m[1m[22m[2m │ gzip:   0.16 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mpreview-O_buDTJV.js                    [39m[1m[2m    0.17 kB[22m[1m[22m[2m │ gzip:   0.15 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mindex-5dElvgig.js                      [39m[1m[2m    0.24 kB[22m[1m[22m[2m │ gzip:   0.17 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mindex-rjHB06b6.js                      [39m[1m[2m    0.39 kB[22m[1m[22m[2m │ gzip:   0.26 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mpreview-pF0Jw540.js                    [39m[1m[2m    0.71 kB[22m[1m[22m[2m │ gzip:   0.49 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mindex-PPLHz8o0.js                      [39m[1m[2m    0.77 kB[22m[1m[22m[2m │ gzip:   0.47 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mpreview-VA_JJc8O.js                    [39m[1m[2m    0.82 kB[22m[1m[22m[2m │ gzip:   0.49 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mHeader.stories-yjzlL33F.js             [39m[1m[2m    1.06 kB[22m[1m[22m[2m │ gzip:   0.54 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mButton-V8Cd8ylu.js                     [39m[1m[2m    1.45 kB[22m[1m[22m[2m │ gzip:   0.75 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mindex-zfY9g1MM.js                      [39m[1m[2m    1.64 kB[22m[1m[22m[2m │ gzip:   0.85 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mHeader-KYxXGDnJ.js                     [39m[1m[2m    1.70 kB[22m[1m[22m[2m │ gzip:   0.98 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mButton.stories-NKmPnZvy.js             [39m[1m[2m    1.76 kB[22m[1m[22m[2m │ gzip:   0.60 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mDocsRenderer-CFRXHY34-3xwYuEBZ.js      [39m[1m[2m    2.00 kB[22m[1m[22m[2m │ gzip:   1.00 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mentry-preview-WmHcYZG6.js              [39m[1m[2m    2.33 kB[22m[1m[22m[2m │ gzip:   1.26 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mpreview-gRbY_kEB.js                    [39m[1m[2m    3.56 kB[22m[1m[22m[2m │ gzip:   1.72 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mPage.stories-mGCSiAnB.js               [39m[1m[2m    3.88 kB[22m[1m[22m[2m │ gzip:   1.84 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mColor.stories-XQ6lkJCl.js              [39m[1m[2m    4.42 kB[22m[1m[22m[2m │ gzip:   2.01 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36miframe-b748A7sY.js                     [39m[1m[2m    4.65 kB[22m[1m[22m[2m │ gzip:   1.79 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mpreview-wCp9WPam.js                    [39m[1m[2m    5.03 kB[22m[1m[22m[2m │ gzip:   1.86 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mpreview-AFLxCOxy.js                    [39m[1m[2m    7.62 kB[22m[1m[22m[2m │ gzip:   1.57 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mpreview-LXtT9aNu.js                    [39m[1m[2m    8.12 kB[22m[1m[22m[2m │ gzip:   3.08 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mentry-preview-docs-8wSJJaIO.js         [39m[1m[2m    8.15 kB[22m[1m[22m[2m │ gzip:   3.27 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mIntro-th_KnpWN.js                      [39m[1m[2m   25.70 kB[22m[1m[22m[2m │ gzip:  10.89 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mColor-F6OSRLHC-2pfgZn9L.js             [39m[1m[2m   29.24 kB[22m[1m[22m[2m │ gzip:  10.87 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mindex-gfRuJarM.js                      [39m[1m[2m   53.77 kB[22m[1m[22m[2m │ gzip:  15.50 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mvue.esm-bundler-ndbl6ldT.js            [39m[1m[2m  155.49 kB[22m[1m[22m[2m │ gzip:  58.17 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mindex-WHZl0jIi.js                      [39m[1m[33m  545.84 kB[39m[22m[2m │ gzip: 144.28 kB[22m
-[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db/[22m[2massets/[22m[36mindex-roXWQLRC.js                      [39m[1m[33m1,031.13 kB[39m[22m[2m │ gzip: 322.23 kB[22m
-[32m✓ built in 6.71s[39m
-info => Preview built ([38;2;181;126;229m8.21 s[39m)
-info => Output directory: /var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--2829-sXL9yDXOn6db
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[32mcontext-tKiKnkuP.png                   [39m[1m[2m    6.12 kB[22m[1m[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[32mstyling-ZOs40c1G.png                   [39m[1m[2m    7.24 kB[22m[1m[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[32miframe.html                                   [39m[1m[2m   16.32 kB[22m[1m[22m[2m │ gzip:   4.44 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[32mdocs-Pvr7BWzI.png                      [39m[1m[2m   27.88 kB[22m[1m[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[32mshare-xgPlHEHy.png                     [39m[1m[2m   40.77 kB[22m[1m[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[32maccessibility-Fv4dmnDm.png             [39m[1m[2m   42.34 kB[22m[1m[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[32mfigma-plugin-h9oRC4jr.png              [39m[1m[2m   44.25 kB[22m[1m[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[32mtheming--liSzaFj.png                   [39m[1m[2m   44.37 kB[22m[1m[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[32mtesting-HG80fZfa.png                   [39m[1m[2m   49.31 kB[22m[1m[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[32maddon-library-VlAgJsjc.png             [39m[1m[2m  467.37 kB[22m[1m[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[35mHeader-LVn4mZpJ.css                    [39m[1m[2m    0.51 kB[22m[1m[22m[2m │ gzip:   0.30 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[35mPage-zQSTaXM3.css                      [39m[1m[2m    0.93 kB[22m[1m[22m[2m │ gzip:   0.40 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[35mpreview-sETWtoSz.css                   [39m[1m[2m   13.47 kB[22m[1m[22m[2m │ gzip:   3.35 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36m_plugin-vue_export-helper-x3n3nnut.js  [39m[1m[2m    0.09 kB[22m[1m[22m[2m │ gzip:   0.10 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mpreview-VDMnb8dh.js                    [39m[1m[2m    0.16 kB[22m[1m[22m[2m │ gzip:   0.16 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mpreview-HhbMi8Im.js                    [39m[1m[2m    0.17 kB[22m[1m[22m[2m │ gzip:   0.16 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mpreview-O_buDTJV.js                    [39m[1m[2m    0.17 kB[22m[1m[22m[2m │ gzip:   0.15 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mindex-vf9UDL4I.js                      [39m[1m[2m    0.24 kB[22m[1m[22m[2m │ gzip:   0.17 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mindex-RO0NXvdj.js                      [39m[1m[2m    0.39 kB[22m[1m[22m[2m │ gzip:   0.26 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mpreview-pF0Jw540.js                    [39m[1m[2m    0.71 kB[22m[1m[22m[2m │ gzip:   0.49 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mindex-PPLHz8o0.js                      [39m[1m[2m    0.77 kB[22m[1m[22m[2m │ gzip:   0.47 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mpreview-X9u3yzt8.js                    [39m[1m[2m    0.82 kB[22m[1m[22m[2m │ gzip:   0.49 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mHeader.stories-I-CSN_5j.js             [39m[1m[2m    1.06 kB[22m[1m[22m[2m │ gzip:   0.54 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mButton-ADCVtsM1.js                     [39m[1m[2m    1.45 kB[22m[1m[22m[2m │ gzip:   0.76 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mindex-xWTqw2OD.js                      [39m[1m[2m    1.64 kB[22m[1m[22m[2m │ gzip:   0.84 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mHeader-KkzLQKQ_.js                     [39m[1m[2m    1.70 kB[22m[1m[22m[2m │ gzip:   0.98 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mButton.stories-LTA8u9Lc.js             [39m[1m[2m    1.76 kB[22m[1m[22m[2m │ gzip:   0.60 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mDocsRenderer-CFRXHY34-8NcPV-in.js      [39m[1m[2m    2.00 kB[22m[1m[22m[2m │ gzip:   1.00 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mColorCard-DRSzxnF0.js                  [39m[1m[2m    2.09 kB[22m[1m[22m[2m │ gzip:   1.16 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mentry-preview-PAjeLOzN.js              [39m[1m[2m    2.33 kB[22m[1m[22m[2m │ gzip:   1.26 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mColor.stories-1QG8oRU4.js              [39m[1m[2m    2.46 kB[22m[1m[22m[2m │ gzip:   1.17 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mpreview-gRbY_kEB.js                    [39m[1m[2m    3.56 kB[22m[1m[22m[2m │ gzip:   1.72 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mFont.stories-yW5fg6NE.js               [39m[1m[2m    3.87 kB[22m[1m[22m[2m │ gzip:   1.74 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mPage.stories-U7oAAOgo.js               [39m[1m[2m    3.89 kB[22m[1m[22m[2m │ gzip:   1.85 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36miframe-LOOuLrfP.js                     [39m[1m[2m    4.85 kB[22m[1m[22m[2m │ gzip:   1.85 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mpreview-wCp9WPam.js                    [39m[1m[2m    5.03 kB[22m[1m[22m[2m │ gzip:   1.86 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mpreview-AFLxCOxy.js                    [39m[1m[2m    7.62 kB[22m[1m[22m[2m │ gzip:   1.57 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mpreview-LXtT9aNu.js                    [39m[1m[2m    8.12 kB[22m[1m[22m[2m │ gzip:   3.08 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mentry-preview-docs-R527mXKX.js         [39m[1m[2m    8.15 kB[22m[1m[22m[2m │ gzip:   3.28 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mIntro-v4d-iw-N.js                      [39m[1m[2m   25.70 kB[22m[1m[22m[2m │ gzip:  10.89 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mColor-F6OSRLHC-PD7cYp6M.js             [39m[1m[2m   29.24 kB[22m[1m[22m[2m │ gzip:  10.87 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mindex-gfRuJarM.js                      [39m[1m[2m   53.77 kB[22m[1m[22m[2m │ gzip:  15.50 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mvue.esm-bundler-4peXjQV8.js            [39m[1m[2m  155.49 kB[22m[1m[22m[2m │ gzip:  58.17 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mindex-WHZl0jIi.js                      [39m[1m[33m  545.84 kB[39m[22m[2m │ gzip: 144.28 kB[22m
+[2m../../../../../var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ/[22m[2massets/[22m[36mindex-Pgf3KJQz.js                      [39m[1m[33m1,031.13 kB[39m[22m[2m │ gzip: 322.23 kB[22m
+[32m✓ built in 7.04s[39m
+info => Preview built ([38;2;181;126;229m7.98 s[39m)
+info => Output directory: /var/folders/rn/f8yxj4b16l98ms442mg19l6m0000gn/T/chromatic--6122-RNgoHp5TF6SZ
