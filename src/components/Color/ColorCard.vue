@@ -1,11 +1,14 @@
 <template>
-  <div class="flex relative flex-col items-center p-4 space-y-2 bg-gray-50 rounded-lg border transition-transform duration-300 transform hover:scale-[1.02]">
+  <div class="flex relative flex-col items-center p-4 gap-2 bg-gray-50 rounded-lg border transition-transform duration-300 transform hover:scale-[1.02]">
     <!-- Color Block -->
-    <div class="w-16 h-16 rounded" :style="{ backgroundColor: color }"></div>
+    <div class="mb-2 w-16 h-16 rounded" :style="{ backgroundColor: color }"></div>
 
+    <!-- Token -->
+    <p class="text-sm">{{ token }}</p>
+    
     <!-- Color Value with Copy Icon -->
     <div class="flex items-center space-x-2">
-      <p class="text-sm font-bold">{{ color }}</p>
+      <p class="text-sm font-light text-gray-500">{{ color }}</p>
       <button
         class="relative text-gray-500 whitespace-nowrap hover:text-gray-800"
         @click="copyToClipboard(color)"
@@ -25,8 +28,6 @@
       </button>
     </div>
 
-    <!-- Token -->
-    <p class="text-xs text-gray-500">{{ token }}</p>
   </div>
 </template>
 

@@ -1,16 +1,16 @@
 <template>
-    <div class="flex relative flex-col items-center p-8 space-y-2 bg-gray-50 rounded-lg border transition-transform duration-300 transform hover:scale-[1.02]">
+    <div class="flex relative flex-col items-center p-4 gap-2 bg-gray-50 rounded-lg border transition-transform duration-300 transform hover:scale-[1.02]">
       <!-- Icons Block -->
       <div class="p-3">
         <component :is="icon" class="text-xl" />
       </div>
       
       <!-- Token -->
-      <p class="text-sm text-gray-500">{{ token }}</p>
+      <p class="text-sm">{{ token }}</p>
       
       <!-- Color Value with Copy Icon -->
       <div class="flex items-center space-x-2">
-        <p class="text-xs font-bold">{{ name }}</p>
+        <p class="text-sm font-light text-gray-500">{{ name }}</p>
         <button
           class="relative text-gray-500 whitespace-nowrap hover:text-gray-800"
           @click="copyToClipboard(token)"

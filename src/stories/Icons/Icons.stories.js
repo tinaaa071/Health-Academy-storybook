@@ -1,7 +1,7 @@
 import Icons from '../../components/Icons/Icons.vue';
 
 export default {
-  title: "Guides/Icons",
+  title: "Components/Icons",
   component: Icons,
 };
 

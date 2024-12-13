@@ -40,11 +40,11 @@ export default {
         {
           title: 'Primary',  // 色票區塊 1 的標題
           colors: [
-            { color: "#FF1755", token: "var(--awwd-ref-color-primary-50)" },
-            { color: "#FF618B", token: "var(--awwd-ref-color-primary-30)" },
-            { color: "#AD103A", token: "var(--awwd-ref-color-primary-70)" },
-            { color: "#AD103A", token: "var(--awwd-ref-color-primary-70)" },
-            { color: "#AD103A", token: "var(--awwd-ref-color-primary-70)" },
+            { color: "#FF1755", token: "red-500" },
+            { color: "#FF618B", token: "red-500" },
+            { color: "#AD103A", token: "red-500" },
+            { color: "#AD103A", token: "red-500" },
+            { color: "#AD103A", token: "red-500" },
           ]
         },
         {
