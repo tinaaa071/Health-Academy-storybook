@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 bg-gray-50 rounded-lg border shadow-sm">
+  <div class="p-4 bg-gray-50 rounded-lg border shadow-sm transition-transform duration-300 transform hover:scale-[1.02]">
     <h2 :class="headingClass" class="mb-2">{{ headingText }}</h2>
     <div class="flex gap-24 text-sm font-light text-gray-400">
       <p>Class Name: 

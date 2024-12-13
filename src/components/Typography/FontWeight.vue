@@ -28,15 +28,15 @@ import FontSizeCard from './FontSizeCard.vue';
 
 const headings = [
   {
-    text: 'Heading 1',
-    class: 'text-5xl font-bold leading-[72px]',
-    className: '.awwd-font-size-heading-1',
+    text: 'Roboto',
+    class: 'font-bold',
+    className: 'font-bold',
     style: 'font-size: 60px; line-height: 72px;',
   },
   {
-    text: 'Heading 2',
-    class: 'text-4xl font-bold leading-[54px]',
-    className: '.awwd-font-size-heading-2',
+    text: 'Roboto',
+    class: 'font-semibold',
+    className: 'font-semibold',
     style: 'font-size: 46px; line-height: 54px;',
   },
 ];

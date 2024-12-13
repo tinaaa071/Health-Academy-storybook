@@ -1,5 +1,5 @@
 <template>
-  <div class="flex relative flex-col items-center p-4 space-y-2 bg-gray-50 rounded-lg border">
+  <div class="flex relative flex-col items-center p-4 space-y-2 bg-gray-50 rounded-lg border transition-transform duration-300 transform hover:scale-[1.02]">
     <!-- Color Block -->
     <div class="w-16 h-16 rounded" :style="{ backgroundColor: color }"></div>
 
