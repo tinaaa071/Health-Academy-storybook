@@ -12,8 +12,10 @@ declare module 'vue' {
     ColorCard: typeof import('./src/components/Color/ColorCard.vue')['default']
     Fa6RegularCopy: typeof import('~icons/fa6-regular/copy')['default']
     Font: typeof import('./src/components/Typography/Font.vue')['default']
-    FontCard: typeof import('./src/components/Typography/FontSizeCard.vue')['default']
+    FontSize: typeof import('./src/components/Typography/FontSize.vue')['default']
     FontSizeCard: typeof import('./src/components/Typography/FontSizeCard.vue')['default']
+    FontWeight: typeof import('./src/components/Typography/FontWeight.vue')['default']
+    FontWeightCard: typeof import('./src/components/Typography/FontWeightCard.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
