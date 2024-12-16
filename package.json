@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-     "chromatic": "chromatic --project-token=chpt_09665e408131bd5"
+    "chromatic": "chromatic --project-token=chpt_09665e408131bd5"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.17",

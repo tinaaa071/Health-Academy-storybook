@@ -7,19 +7,23 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    Accordion: typeof import('./src/components/Accordion/Accordion.vue')['default']
     Button: typeof import('./src/components/Button/Button.vue')['default']
     Color: typeof import('./src/components/Color/Color.vue')['default']
     ColorCard: typeof import('./src/components/Color/ColorCard.vue')['default']
     Corner: typeof import('./src/components/Corner/Corner.vue')['default']
     CornerCard: typeof import('./src/components/Corner/CornerCard.vue')['default']
     Fa6RegularCopy: typeof import('~icons/fa6-regular/copy')['default']
+    Fa6Solid1: typeof import('~icons/fa6-solid/1')['default']
     Fa6SolidArrowLeftLong: typeof import('~icons/fa6-solid/arrow-left-long')['default']
     Fa6SolidArrowRightLong: typeof import('~icons/fa6-solid/arrow-right-long')['default']
+    Fa6SolidChevronDown: typeof import('~icons/fa6-solid/chevron-down')['default']
     Fa6SolidPlus: typeof import('~icons/fa6-solid/plus')['default']
     FontSize: typeof import('./src/components/Typography/FontSize.vue')['default']
     FontSizeCard: typeof import('./src/components/Typography/FontSizeCard.vue')['default']
     FontWeight: typeof import('./src/components/Typography/FontWeight.vue')['default']
     FontWeightCard: typeof import('./src/components/Typography/FontWeightCard.vue')['default']
+    Icon: typeof import('~icons/ic/on')['default']
     IconCard: typeof import('./src/components/Icons/IconCard.vue')['default']
     Icons: typeof import('./src/components/Icons/Icons.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
