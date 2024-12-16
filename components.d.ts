@@ -32,6 +32,7 @@ declare module 'vue' {
     IconCard: typeof import('./src/components/Icons/IconCard.vue')['default']
     Icons: typeof import('./src/components/Icons/Icons.vue')['default']
     Pagination: typeof import('./src/components/Pagination/Pagination.vue')['default']
+    RangeSlider: typeof import('./src/components/RangeSlider/RangeSlider.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Shadow: typeof import('./src/components/Shadow/Shadow.vue')['default']
