@@ -24,6 +24,8 @@ declare module 'vue' {
     Fa6SolidCheck: typeof import('~icons/fa6-solid/check')['default']
     Fa6SolidChevronDown: typeof import('~icons/fa6-solid/chevron-down')['default']
     Fa6SolidChevronLeft: typeof import('~icons/fa6-solid/chevron-left')['default']
+    Fa6SolidCircleCheck: typeof import('~icons/fa6-solid/circle-check')['default']
+    Fa6SolidCircleXmark: typeof import('~icons/fa6-solid/circle-xmark')['default']
     Fa6SolidHouse: typeof import('~icons/fa6-solid/house')['default']
     Fa6SolidStar: typeof import('~icons/fa6-solid/star')['default']
     Fa6SolidXmark: typeof import('~icons/fa6-solid/xmark')['default']
@@ -45,5 +47,6 @@ declare module 'vue' {
     SpacingCard: typeof import('./src/components/Spacing/SpacingCard.vue')['default']
     Stepper: typeof import('./src/components/Stepper/Stepper.vue')['default']
     Tabs: typeof import('./src/components/Tabs/Tabs.vue')['default']
+    Timeline: typeof import('./src/components/Timeline/Timeline.vue')['default']
   }
 }

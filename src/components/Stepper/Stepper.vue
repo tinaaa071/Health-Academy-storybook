@@ -11,7 +11,7 @@
                 ? 'bg-emerald-400 text-white border-emerald-400'   /* 已完成步驟為綠色 */
                 : index === currentStep
                 ? 'bg-orange-400 text-white border-orange-400' /* 當前步驟為橘色 */
-                : 'bg-gray-200 text-gray-500 border-gray-200'  /* 未完成步驟為灰色 */
+                : 'bg-gray-200 text-gray-400 border-gray-200'  /* 未完成步驟為灰色 */
             ]"
           >
             <template v-if="index < currentStep">
