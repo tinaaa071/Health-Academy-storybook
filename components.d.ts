@@ -21,10 +21,10 @@ declare module 'vue' {
     Fa6SolidAnglesRight: typeof import('~icons/fa6-solid/angles-right')['default']
     Fa6SolidArrowLeftLong: typeof import('~icons/fa6-solid/arrow-left-long')['default']
     Fa6SolidArrowRightLong: typeof import('~icons/fa6-solid/arrow-right-long')['default']
+    Fa6SolidCheck: typeof import('~icons/fa6-solid/check')['default']
     Fa6SolidChevronDown: typeof import('~icons/fa6-solid/chevron-down')['default']
     Fa6SolidChevronLeft: typeof import('~icons/fa6-solid/chevron-left')['default']
     Fa6SolidHouse: typeof import('~icons/fa6-solid/house')['default']
-    Fa6SolidList: typeof import('~icons/fa6-solid/list')['default']
     Fa6SolidStar: typeof import('~icons/fa6-solid/star')['default']
     Fa6SolidXmark: typeof import('~icons/fa6-solid/xmark')['default']
     FontSize: typeof import('./src/components/Typography/FontSize.vue')['default']
@@ -43,6 +43,7 @@ declare module 'vue' {
     ShadowCard: typeof import('./src/components/Shadow/ShadowCard.vue')['default']
     Spacing: typeof import('./src/components/Spacing/Spacing.vue')['default']
     SpacingCard: typeof import('./src/components/Spacing/SpacingCard.vue')['default']
+    Stepper: typeof import('./src/components/Stepper/Stepper.vue')['default']
     Tabs: typeof import('./src/components/Tabs/Tabs.vue')['default']
   }
 }
