@@ -11,6 +11,7 @@ declare module 'vue' {
     Alerts: typeof import('./src/components/Alerts/Alerts.vue')['default']
     Breadcrumb: typeof import('./src/components/Breadcrumb/Breadcrumb.vue')['default']
     Button: typeof import('./src/components/Button/Button.vue')['default']
+    Checkbox: typeof import('./src/components/Checkbox/Checkbox.vue')['default']
     Color: typeof import('./src/components/Color/Color.vue')['default']
     ColorCard: typeof import('./src/components/Color/ColorCard.vue')['default']
     Corner: typeof import('./src/components/Corner/Corner.vue')['default']
@@ -24,6 +25,7 @@ declare module 'vue' {
     Fa6SolidCheck: typeof import('~icons/fa6-solid/check')['default']
     Fa6SolidChevronDown: typeof import('~icons/fa6-solid/chevron-down')['default']
     Fa6SolidChevronLeft: typeof import('~icons/fa6-solid/chevron-left')['default']
+    Fa6SolidChevronUp: typeof import('~icons/fa6-solid/chevron-up')['default']
     Fa6SolidCircleCheck: typeof import('~icons/fa6-solid/circle-check')['default']
     Fa6SolidCircleXmark: typeof import('~icons/fa6-solid/circle-xmark')['default']
     Fa6SolidHouse: typeof import('~icons/fa6-solid/house')['default']
@@ -36,6 +38,7 @@ declare module 'vue' {
     IconCard: typeof import('./src/components/Icons/IconCard.vue')['default']
     Icons: typeof import('./src/components/Icons/Icons.vue')['default']
     Pagination: typeof import('./src/components/Pagination/Pagination.vue')['default']
+    RadioButton: typeof import('./src/components/RadioButton/RadioButton.vue')['default']
     RangeSlider: typeof import('./src/components/RangeSlider/RangeSlider.vue')['default']
     Ratings: typeof import('./src/components/Ratings/Ratings.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
@@ -48,5 +51,6 @@ declare module 'vue' {
     Stepper: typeof import('./src/components/Stepper/Stepper.vue')['default']
     Tabs: typeof import('./src/components/Tabs/Tabs.vue')['default']
     Timeline: typeof import('./src/components/Timeline/Timeline.vue')['default']
+    Tree: typeof import('./src/components/Tree/Tree.vue')['default']
   }
 }
