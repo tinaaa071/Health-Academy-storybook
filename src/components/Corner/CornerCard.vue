@@ -1,12 +1,12 @@
 <template>
-    <div class="overflow-hidden rounded-lg border shadow-sm transition-transform duration-300 transform hover:scale-[1.02]">
+    <div class="rounded-lg border shadow-sm transition-transform duration-300 transform hover:scale-[1.02]">
         <!-- Top -->
-        <div class="p-4 w-full bg-gray-200/70">
+        <div class="p-4 w-full rounded-t-lg bg-gray-200/70">
             <!-- Square -->
             <div class="w-12 h-12 bg-sky-200 aspect-[1/1]" :class="cornerClass"></div>
         </div>
         <!-- Bottom -->
-        <div class="p-4 bg-gray-50">
+        <div class="p-4 bg-gray-50 rounded-b-lg">
             <h2 class="mb-2 font-bold">{{ headingText }}</h2>
             <div class="flex gap-24 text-sm font-light text-gray-400">
                 <p>Class Name: 
