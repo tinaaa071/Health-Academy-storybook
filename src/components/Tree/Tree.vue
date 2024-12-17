@@ -16,7 +16,7 @@
               :indeterminate="node.isIndeterminate"
               v-model="node.isChecked"
               @change="onCheckboxChange(node)"
-              :class="['mt-0.5', node.isOpen ? 'text-blue-600' : 'text-gray-600', 'rounded border-gray-200 shrink-0 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed form-checkbox']"
+              :class="['text-blue-600 mt-0.5 rounded border-gray-200 shrink-0 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed form-checkbox']"
             />
             
             <!-- Node label -->
