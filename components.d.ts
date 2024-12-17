@@ -41,5 +41,6 @@ declare module 'vue' {
     ShadowCard: typeof import('./src/components/Shadow/ShadowCard.vue')['default']
     Spacing: typeof import('./src/components/Spacing/Spacing.vue')['default']
     SpacingCard: typeof import('./src/components/Spacing/SpacingCard.vue')['default']
+    Tabs: typeof import('./src/components/Tabs/Tabs.vue')['default']
   }
 }
