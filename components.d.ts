@@ -16,6 +16,7 @@ declare module 'vue' {
     ColorCard: typeof import('./src/components/Color/ColorCard.vue')['default']
     Corner: typeof import('./src/components/Corner/Corner.vue')['default']
     CornerCard: typeof import('./src/components/Corner/CornerCard.vue')['default']
+    Dropdown: typeof import('./src/components/Dropdown/Dropdown.vue')['default']
     Fa6BrandsFacebookF: typeof import('~icons/fa6-brands/facebook-f')['default']
     Fa6BrandsLine: typeof import('~icons/fa6-brands/line')['default']
     Fa6BrandsYoutube: typeof import('~icons/fa6-brands/youtube')['default']
@@ -46,6 +47,7 @@ declare module 'vue' {
     Footer: typeof import('./src/components/Footer/Footer.vue')['default']
     IconCard: typeof import('./src/components/Icons/IconCard.vue')['default']
     Icons: typeof import('./src/components/Icons/Icons.vue')['default']
+    Modal: typeof import('./src/components/Modal/Modal.vue')['default']
     Navbar: typeof import('./src/components/Navbar/Navbar.vue')['default']
     Pagination: typeof import('./src/components/Pagination/Pagination.vue')['default']
     RadioButton: typeof import('./src/components/RadioButton/RadioButton.vue')['default']
@@ -61,6 +63,7 @@ declare module 'vue' {
     Stepper: typeof import('./src/components/Stepper/Stepper.vue')['default']
     Tabs: typeof import('./src/components/Tabs/Tabs.vue')['default']
     Timeline: typeof import('./src/components/Timeline/Timeline.vue')['default']
+    Tooltips: typeof import('./src/components/Tooltips/Tooltips.vue')['default']
     Tree: typeof import('./src/components/Tree/Tree.vue')['default']
   }
 }
