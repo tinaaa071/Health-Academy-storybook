@@ -15,15 +15,15 @@
         class="flex overflow-hidden relative w-full text-sm rounded-lg border border-gray-200 shadow-sm focus:ring-2 focus:outline-none focus:z-10 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:focus:border-neutral-600"
         @click="triggerFileInput"
       >
-        <span class="px-4 py-3 h-full bg-gray-100 text-nowrap dark:bg-neutral-800">
+        <span class="px-4 py-3 h-full bg-gray-100 text-nowrap">
           Browse Files
         </span>
-        <span class="flex overflow-hidden px-4 py-3 h-full group grow">
+        <span class="flex overflow-hidden px-4 py-3 h-full font-normal group grow">
           <span
             v-if="!selectedFileName"
             class="text-gray-400"
           >
-            Choose files to upload
+            Choose files
           </span>
           <span v-else>
             {{ selectedFileName }}
@@ -32,10 +32,10 @@
       </button>
   
       <!-- 提示文字 -->
-      <p v-if="showHint && !selectedFileName" class="mt-2 text-sm text-gray-400">
+      <p v-if="showHint && !selectedFileName" class="mt-2 text-sm font-normal text-gray-400">
         Please choose a file to upload. Maximum size: 5MB.
       </p>
-      <p v-if="showHint && selectedFileName" class="mt-2 text-sm text-green-500">
+      <p v-if="showHint && selectedFileName" class="mt-2 text-sm font-normal text-green-500">
         File ready to upload: {{ selectedFileName }}.
       </p>
     </div>
