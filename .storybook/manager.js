@@ -20,9 +20,9 @@ const customTheme = create({
 //   textInverseColor: 'white', // 反轉文字顏色（用於黑暗模式）
 
   // 設定左上角的 logo
-  brandTitle: '你的專案名稱',
+  brandTitle: 'Health-Academy',
 //   brandUrl: 'https://yourwebsite.com', // 點擊 logo 的跳轉連結
-  brandImage: 'https://cdn.prod.website-files.com/649ae86ac1a4be707b656519/649d90197bcfb131556c51af_logo_fm%201.svg', // logo 的 URL
+  brandImage: 'https://i.imgur.com/eJFDM7P.png', // logo 的 URL
 });
 
 addons.setConfig({
