@@ -1,7 +1,7 @@
 <template>
   <div class="flex relative flex-col items-center p-4 gap-2 bg-gray-50 rounded-lg border transition-transform duration-300 transform hover:scale-[1.02]">
     <!-- Color Block -->
-    <div class="mb-2 w-16 h-16 rounded" :style="{ backgroundColor: color }"></div>
+    <div class="mb-2 w-16 h-16 rounded border border-gray-200" :style="{ backgroundColor: color }"></div>
 
     <!-- Token -->
     <p class="text-sm">{{ token }}</p>

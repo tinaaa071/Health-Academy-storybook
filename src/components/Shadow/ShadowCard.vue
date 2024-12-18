@@ -3,7 +3,7 @@
         <!-- Top -->
         <div class="p-4 w-full rounded-t-lg bg-gray-200/70">
             <!-- Square -->
-            <div class="w-12 h-12 bg-white aspect-[1/1] rounded" :class="shadowClass"></div>
+            <div class="w-16 h-16 bg-white aspect-[1/1] rounded" :class="shadowClass"></div>
         </div>
         <!-- Bottom -->
         <div class="p-4 bg-gray-50 rounded-b-lg">

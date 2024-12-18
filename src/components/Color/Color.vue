@@ -38,32 +38,60 @@ export default {
     return {
       colorBlocks: [
         {
-          title: 'Primary',  // 色票區塊 1 的標題
+          title: 'Primary',
           colors: [
-            { color: "#FF1755", token: "red-500" },
-            { color: "#FF618B", token: "red-500" },
-            { color: "#AD103A", token: "red-500" },
-            { color: "#AD103A", token: "red-500" },
-            { color: "#AD103A", token: "red-500" },
+            { color: "#EFF6FF", token: "blue-50" },
+            { color: "#DBEAFE", token: "blue-100" },
+            { color: "#93C5FD", token: "blue-300" },
+            { color: "#3B82F6", token: "blue-500" },
+            { color: "#2563EB", token: "blue-600" },
+            { color: "#1D4ED8", token: "blue-700" },
           ]
         },
         {
-          title: 'Secondary',  // 色票區塊 2 的標題
+          title: 'Gray Scale',
           colors: [
-            { color: "#1E40AF", token: "var(--awwd-ref-color-secondary-50)" },
-            { color: "#3B82F6", token: "var(--awwd-ref-color-secondary-30)" },
-            { color: "#1E3A8A", token: "var(--awwd-ref-color-secondary-70)" },
+            { color: "#F9FAFB", token: "gray-50" },
+            { color: "#F3F4F6", token: "gray-100" },
+            { color: "#E5E7EB", token: "gray-200" },
+            { color: "#D1D5DB", token: "gray-300" },
+            { color: "#9CA3AF", token: "gray-400" },
+            { color: "#6B7280", token: "gray-500" },
+            { color: "#4B5563", token: "gray-600" },
+            { color: "#374151", token: "gray-700" },
+            { color: "#1F2937", token: "gray-800" },
+            { color: "#111827", token: "gray-900" },
           ]
         },
         {
-          title: 'Tertiary',  // 色票區塊 3 的標題
+          title: 'Success',
           colors: [
-            { color: "#16A34A", token: "var(--awwd-ref-color-tertiary-50)" },
-            { color: "#22C55E", token: "var(--awwd-ref-color-tertiary-30)" },
-            { color: "#15803D", token: "var(--awwd-ref-color-tertiary-70)" },
+            { color: "#D1FAE5", token: "emerald-100" },
+            { color: "#A7F3D0", token: "emerald-200" },
+            { color: "#34D399", token: "emerald-400" },
+            { color: "#10B981", token: "emerald-500" },
+            { color: "#047857", token: "emerald-700" }
           ]
         },
-        // 可以在此處添加更多色票區塊
+        {
+          title: 'Notify',
+          colors: [
+            { color: "#FFF7ED", token: "orange-50" },
+            { color: "#FDBA74", token: "orange-300" },
+            { color: "#FB923C", token: "orange-400" },
+            { color: "#F97316", token: "orange-500" }
+          ]
+        },
+        {
+          title: 'Error',
+          colors: [
+            { color: "#FEE2E2", token: "red-100" },
+            { color: "#FECACA", token: "red-200" },
+            { color: "#F87171", token: "red-400" },
+            { color: "#EF4444", token: "red-500" },
+            { color: "#B91C1C", token: "red-700" }
+          ]
+        },
       ]
     };
   }

@@ -29,15 +29,45 @@ import FontSizeCard from './FontSizeCard.vue';
 const headings = [
   {
     text: 'Heading 1',
-    class: 'text-5xl font-bold leading-[72px]',
-    className: '.awwd-font-size-heading-1',
-    style: 'font-size: 60px; line-height: 72px;',
+    class: 'text-3xl',
+    className: 'text-3xl',
+    style: 'font-size: 1.875rem; line-height: 2.25rem;',
   },
   {
     text: 'Heading 2',
-    class: 'text-4xl font-bold leading-[54px]',
-    className: '.awwd-font-size-heading-2',
-    style: 'font-size: 46px; line-height: 54px;',
+    class: 'text-2xl',
+    className: 'text-2xl',
+    style: 'font-size: 1.5rem; line-height: 2rem;',
+  },
+  {
+    text: 'Heading 3',
+    class: 'text-xl',
+    className: 'text-xl',
+    style: 'font-size: 1.25rem; line-height: 1.75rem;',
+  },
+  {
+    text: 'Heading 4',
+    class: 'text-lg',
+    className: 'text-lg',
+    style: 'font-size: 1.125rem; line-height: 1.75rem;',
+  },
+  {
+    text: 'Heading 5',
+    class: 'text-base',
+    className: 'text-base',
+    style: 'font-size: 1rem; line-height: 1.5rem;',
+  },
+  {
+    text: 'Heading 6',
+    class: 'text-sm',
+    className: 'text-sm',
+    style: 'font-size: 0.875rem; line-height: 1.25rem;',
+  },
+  {
+    text: 'Heading 7',
+    class: 'text-xs',
+    className: 'text-xs',
+    style: 'font-size: 0.75rem; line-height: 1rem;',
   },
 ];
 </script>

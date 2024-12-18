@@ -31,13 +31,31 @@ const headings = [
     text: 'Roboto',
     class: 'font-bold',
     className: 'font-bold',
-    style: 'font-size: 60px; line-height: 72px;',
+    style: 'font-weight: 700;',
   },
   {
     text: 'Roboto',
     class: 'font-semibold',
     className: 'font-semibold',
-    style: 'font-size: 46px; line-height: 54px;',
+    style: 'font-weight: 600;',
+  },
+  {
+    text: 'Roboto',
+    class: 'font-medium',
+    className: 'font-medium',
+    style: 'font-weight: 500;',
+  },
+  {
+    text: 'Roboto',
+    class: 'font-normal',
+    className: 'font-normal',
+    style: 'font-weight: 400;',
+  },
+  {
+    text: 'Roboto',
+    class: 'font-light',
+    className: 'font-light',
+    style: 'font-weight: 300;',
   },
 ];
 </script>

@@ -9,7 +9,7 @@
         <div class="p-4 bg-gray-50 rounded-b-lg">
             <h2 :class="headingClass" class="mb-2">{{ headingText }}</h2>
             <div class="flex gap-24 text-sm font-light text-gray-400">
-                <p>Class Name: 
+                <!-- <p>Class Name: 
                 <br>
                 <span class="font-normal text-gray-500">
                     {{ className }}
@@ -20,9 +20,9 @@
                     @mouseleave="resetTooltip"
                     title="Copy class"
                     >
-                    <!-- Copy Icon -->
+                    
                     <Fa6RegularCopy class="text-xs text-gray-400 hover:text-gray-500" />
-                    <!-- Tooltip -->
+                    
                     <span
                         v-if="showTooltip"
                         class="absolute top-full px-2 py-1 mt-1 text-xs text-white bg-gray-800 rounded shadow"
@@ -31,7 +31,7 @@
                     </span>
                     </button>
                 </span>
-                </p>
+                </p> -->
                 <p>Style: 
                 <br>
                 <span class="font-normal text-gray-500">

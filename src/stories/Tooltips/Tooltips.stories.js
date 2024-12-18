@@ -22,7 +22,7 @@ export default {
     template: `
       <div class="flex justify-center items-center h-64">
         <Tooltips v-bind="args">
-          <button class="px-4 py-2 text-white bg-blue-500 rounded">Hover me</button>
+          <button class="px-4 py-2 text-white bg-blue-500 rounded-lg">Hover me</button>
         </Tooltips>
       </div>
     `,

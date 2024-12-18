@@ -2,7 +2,7 @@
     <div class="relative group">
       <slot></slot>
       <div
-        :class="[tooltipClasses, 'absolute whitespace-nowrap z-10 px-4 py-2 text-sm text-white bg-gray-800 rounded shadow-lg opacity-0 transition-opacity duration-300 group-hover:opacity-100']"
+        :class="[tooltipClasses, 'absolute whitespace-nowrap z-10 px-2.5 py-2 text-xs text-white bg-gray-800 rounded shadow-lg opacity-0 transition-opacity duration-300 group-hover:opacity-100']"
       >
         {{ text }}
         <!-- 顯示三角形 -->
