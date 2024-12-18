@@ -2,7 +2,7 @@
     <div class="flex relative flex-col items-center p-4 gap-2 bg-gray-50 rounded-lg border transition-transform duration-300 transform hover:scale-[1.02]">
       <!-- Icons Block -->
       <div class="p-3">
-        <component :is="icon" class="text-xl" />
+        <component :is="icon" class="mb-2 text-xl" />
       </div>
       
       <!-- Token -->

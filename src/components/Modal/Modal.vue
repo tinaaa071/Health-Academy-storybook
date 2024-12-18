@@ -29,7 +29,7 @@
             
             <!-- Modal Content -->
             <div
-            class="p-6 w-full max-w-lg bg-white transition-transform transform"
+            class="p-6 w-full bg-white transition-transform transform"
             :class="transitionClasses"
             >
             
