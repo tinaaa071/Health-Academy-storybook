@@ -70,7 +70,7 @@
       <button
         type="button"
         :disabled="currentPage === totalPages"
-        class="min-h-[38px] min-w-[38px] py-2 px-2.5 inline-flex justify-center items-center gap-x-2 text-sm rounded-lg text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:text-gray-400 disabled:cursor-not-allowed dark:text-white dark:hover:bg-white/10 dark:focus:bg-white/10"
+        class="min-h-[38px] min-w-[38px] py-2 px-2.5 inline-flex justify-center items-center gap-x-2 text-sm rounded-lg text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:text-gray-300 disabled:cursor-not-allowed dark:text-white dark:hover:bg-white/10 dark:focus:bg-white/10"
         aria-label="Next"
         @click="goToNext"
       >

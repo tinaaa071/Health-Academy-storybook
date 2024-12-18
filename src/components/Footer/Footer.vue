@@ -5,7 +5,7 @@
             <div class="hidden space-y-6 w-full lg:w-1/3 md:block">
                 <img 
                 class="w-40"
-                src="https://cdn.prod.website-files.com/649ae86ac1a4be707b656519/649d90197bcfb131556c51af_logo_fm%201.svg" alt="">
+                src="https://i.imgur.com/zKMG7nK.png" alt="">
     
                 <div class="space-y-3">
                     <div class="flex gap-3">

@@ -3,7 +3,7 @@
       <div class="flex justify-between items-center mx-auto max-w-7xl">
         <img 
         class="w-28"
-        src="https://cdn.prod.website-files.com/649ae86ac1a4be707b656519/649d90197bcfb131556c51af_logo_fm%201.svg" alt="">
+        src="https://i.imgur.com/eJFDM7P.png" alt="">
         <!-- Desktop Menu -->
         <div class="hidden items-center space-x-5 lg:flex">
           <ul class="flex space-x-4">

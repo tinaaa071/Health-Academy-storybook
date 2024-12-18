@@ -2,7 +2,7 @@
     <div class="p-4 space-y-8">
       <div>
         <h1 class="mb-4 text-3xl font-bold">
-          Illustration
+          Image
         </h1>
         <p class="font-light">
           Tailwind includes an expertly-crafted default color palette out-of-the-box that is a great starting point if you don't have your own specific branding in mind.
@@ -22,6 +22,7 @@
             :key="index"
             :imgSrc="item.imgSrc"
             :imgTitle="item.imgTitle"
+            :aspectClass="item.aspectClass"
           />
         </div>
       </div>
@@ -38,15 +39,26 @@
       return {
         imgBlocks: [
           {
+            title: 'Logo',
+            imgs: [
+              {
+                imgSrc: 'https://i.imgur.com/eJFDM7P.png',
+                imgTitle: 'Logo'
+              }
+            ]
+          },
+          {
             title: 'Courses',
             imgs: [
               {
-                imgSrc: 'https://images.unsplash.com/photo-1731076274484-e3882b02d523?q=80&w=2031&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-                imgTitle: 'Primary Color 1'
+                imgSrc: 'https://i.imgur.com/1i8vKDx.png',
+                imgTitle: 'Search Course',
+                aspectClass: 'aspect-[1/1]',
               },
               {
-                imgSrc: 'https://images.unsplash.com/photo-1731413263259-d01c433bb0f7?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-                imgTitle: 'Primary Color 2'
+                imgSrc: 'https://i.imgur.com/WL7TwAX.png',
+                imgTitle: 'Complete Registration',
+                aspectClass: 'aspect-[1/1]',
               },
             ]
           },
@@ -54,12 +66,24 @@
             title: 'Member',
             imgs: [
               {
-                imgSrc: 'path/to/secondary1.jpg',
-                imgTitle: 'Secondary Color 1'
+                imgSrc: 'https://i.imgur.com/I3qR5bz.png',
+                imgTitle: 'Courses Page'
               },
               {
-                imgSrc: 'path/to/secondary2.jpg',
-                imgTitle: 'Secondary Color 2'
+                imgSrc: 'https://i.imgur.com/sHOMLgs.png',
+                imgTitle: 'Review Page'
+              },
+              {
+                imgSrc: 'https://i.imgur.com/kyDOImJ.png',
+                imgTitle: 'Wishlist Page'
+              },
+              {
+                imgSrc: 'https://i.imgur.com/Y2QaynG.png',
+                imgTitle: 'Satisfaction Page'
+              },
+              {
+                imgSrc: 'https://i.imgur.com/pvBTUxQ.png',
+                imgTitle: 'Sent Mail'
               },
             ]
           },
@@ -67,12 +91,12 @@
             title: 'Banner',
             imgs: [
               {
-                imgSrc: 'path/to/tertiary1.jpg',
-                imgTitle: 'Tertiary Color 1'
+                imgSrc: 'https://i.imgur.com/FPUUHBD.png',
+                imgTitle: 'Training Institution'
               },
               {
-                imgSrc: 'path/to/tertiary2.jpg',
-                imgTitle: 'Tertiary Color 2'
+                imgSrc: 'https://i.imgur.com/OeJKn7u.png',
+                imgTitle: 'Admin'
               },
             ]
           },

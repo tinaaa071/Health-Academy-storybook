@@ -17,26 +17,26 @@ export default {
   export const InProgress = Template.bind({});
   InProgress.args = {
     events: [
-        { time: "2024-01-01", content: "Event 1", status: "" },
-        { time: "2024-02-01", content: "Event 2", status: "" },
-        { time: "2024-03-01", content: "Event 3", status: "" },
+        { time: "2025-01-01", content: "Event 1", status: "" },
+        { time: "2025-02-01", content: "Event 2", status: "" },
+        { time: "2025-03-01", content: "Event 3", status: "" },
     ],
   };
   
   export const Done = Template.bind({});
   Done.args = {
     events: [
-        { time: "2024-01-01", content: "Event 1", status: "check" },
-        { time: "2024-02-01", content: "Event 2", status: "check" },
-        { time: "2024-03-01", content: "Event 3", status: "check" },
+        { time: "2025-01-01", content: "Event 1", status: "check" },
+        { time: "2025-02-01", content: "Event 2", status: "check" },
+        { time: "2025-03-01", content: "Event 3", status: "check" },
     ],
   };
 
   export const Failed = Template.bind({});
   Failed.args = {
     events: [
-        { time: "2024-01-01", content: "Event 1", status: "check" },
-        { time: "2024-02-01", content: "Event 2", status: "check" },
-        { time: "2024-03-01", content: "Event 3", status: "cross" },
+        { time: "2025-01-01", content: "Event 1", status: "check" },
+        { time: "2025-02-01", content: "Event 2", status: "check" },
+        { time: "2025-03-01", content: "Event 3", status: "cross" },
     ],
   };

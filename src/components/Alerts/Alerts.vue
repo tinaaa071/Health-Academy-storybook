@@ -1,10 +1,10 @@
 <template>
-    <div v-if="visible" :class="['flex justify-between items-center shadow-md', variantClass, sizeClass]">
+    <div v-if="visible" :class="['flex justify-between items-center shadow-md border', variantClass, sizeClass]">
       <div class="space-y-1">
         <strong class="font-bold">{{ title }}</strong>
-        <p>{{ message }}</p>
+        <p class="text-sm">{{ message }}</p>
       </div>
-      <button @click="close">
+      <button @click="close" class="text-sm">
         <Fa6SolidXmark />
       </button>
     </div>
@@ -40,10 +40,10 @@
     computed: {
       variantClass() {
         const variants = {
-          info: 'bg-blue-100 text-blue-800',
-          success: 'bg-green-100 text-green-800',
-          error: 'bg-red-100 text-red-800',
-          warning: 'bg-yellow-100 text-yellow-800',
+          info: 'bg-blue-100 text-blue-800 border-blue-200',
+          success: 'bg-emerald-100 text-emerald-800 border-emerald-200',
+          error: 'bg-red-100 text-red-800 border-red-200',
+          warning: 'bg-amber-100 text-amber-800 border-amber-200',
         };
         // 根據 variant 屬性選擇相應的樣式
         return variants[this.variant] || variants.info; // 預設為 info

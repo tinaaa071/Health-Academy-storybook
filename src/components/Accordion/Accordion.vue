@@ -29,7 +29,7 @@
           {{ title }}
         </span>
         </div>
-        <span :class="{'rotate-180': isOpen}" class="transition transform">
+        <span :class="{'rotate-180': isOpen}" class="text-sm transition transform">
           <Fa6SolidChevronDown />
         </span>
       </button>

@@ -1,11 +1,15 @@
 <template>
     <div class="flex relative flex-col items-center p-4 gap-2 bg-gray-50 rounded-lg border transition-transform duration-300 transform hover:scale-[1.02]">
       <!-- Color Block -->
-      <img 
-      :src="imgSrc" 
-      class="w-full aspect-[1/1] object-cover object-center mb-2"
-      alt="Color Image"
+      <div 
+        class="flex items-center mb-2 w-full"
       >
+        <img 
+        :src="imgSrc" 
+        class="object-contain w-full"
+        :class="[aspectClass]"
+        >
+      </div>
     
       <!-- Title -->
       <p class="text-sm">{{ imgTitle }}</p>
@@ -29,13 +33,16 @@
   </template>
   
   <script setup>
-  import { ref } from "vue";
   
   // Define props for dynamic data
   const props = defineProps({
     imgSrc: {
       type: String,
       required: true
+    },
+    aspectClass: {
+      type: [String, Array],
+      default: 'aspect-[16/9]',
     },
     imgTitle: {
       type: String,
@@ -65,11 +72,6 @@
     } catch (error) {
       console.error("Download failed", error);
     }
-  }
-  
-  // Reset tooltip when mouse leaves
-  function resetTooltip() {
-    showTooltip.value = false;
   }
   </script>
   

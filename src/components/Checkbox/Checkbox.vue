@@ -8,7 +8,7 @@
         :disabled="disabled"
         :indeterminate="indeterminate"
         @change="handleChange"
-        class="mt-0.5 text-blue-600 rounded border-gray-300 shrink-0 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
+        class="mt-0.5 text-blue-600 rounded border-gray-300 cursor-pointer shrink-0 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
         :class="{
         'text-white': disabled && modelValue !== value,   // 禁用且未選中，背景為白色
         'text-blue-200': disabled && modelValue === value   // 禁用且已選中，背景為 blue-200
