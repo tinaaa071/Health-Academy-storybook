@@ -16,7 +16,7 @@
       </h2>
       
       <!-- 顯示每個色票區塊的顏色列表 -->
-      <div class="grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-4">
+      <div class="grid grid-cols-2 gap-4 lg:grid-cols-4 md:grid-cols-3">
         <ColorCard 
           v-for="(item, index) in block.colors" 
           :key="index" 

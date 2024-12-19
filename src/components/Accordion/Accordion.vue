@@ -1,12 +1,12 @@
 <template>
     <div
       :class="[
-        'overflow-hidden w-full rounded-2xl border border-gray-200',
+        'overflow-hidden w-full rounded-lg border border-gray-200',
         size === 'small' ? 'text-sm' : size === 'large' ? 'text-lg' : ''
       ]"
     >
       <button
-        class="flex justify-between items-center p-4 w-full text-left bg-blue-50 transition focus:outline-none hover:bg-gray-200"
+        class="flex justify-between items-center px-4 py-3.5 w-full text-left bg-blue-50 transition focus:outline-none hover:bg-blue-100"
         @click="toggle"
       >
         <div class="flex gap-2 items-center">

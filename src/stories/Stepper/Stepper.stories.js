@@ -17,8 +17,18 @@ const Template = (args) => ({
   template: '<Stepper v-bind="args" />',
 });
 
-export const Default = Template.bind({});
-Default.args = {
+export const Start = Template.bind({});
+Start.args = {
+  steps: [
+    { label: 'Step 1' },
+    { label: 'Step 2' },
+    { label: 'Step 3' },
+    { label: 'Step 4' },
+  ],
+  currentStep: 0,
+};
+export const InProgress = Template.bind({});
+InProgress.args = {
   steps: [
     { label: 'Step 1' },
     { label: 'Step 2' },

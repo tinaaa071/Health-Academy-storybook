@@ -2,7 +2,7 @@
     <div class="flex relative flex-col items-center p-4 gap-2 bg-gray-50 rounded-lg border transition-transform duration-300 transform hover:scale-[1.02]">
       <!-- Icons Block -->
       <div class="p-3">
-        <component :is="icon" class="mb-2 text-xl" />
+        <component :is="icon" class="mb-2" :class="[iconClass]" />
       </div>
       
       <!-- Token -->
@@ -12,6 +12,7 @@
       <div class="flex items-center space-x-2">
         <p class="text-sm font-light text-gray-500">{{ name }}</p>
         <button
+          v-if="showBTN"
           class="relative text-gray-500 whitespace-nowrap hover:text-gray-800"
           @click="copyToClipboard(token)"
           @mouseenter="showTooltip = true"
@@ -45,9 +46,17 @@
       type: String,
       required: true
     },
+    iconClass: {
+      type: [String, Array],
+      default: 'text-xl'
+    },
     name: {
       type: String,
       required: true
+    },
+    showBTN: {
+      type: Boolean,
+      default: true,
     }
   });
   
